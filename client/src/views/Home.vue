@@ -6,7 +6,7 @@
 
 <template>
   <div class="home">
-    <h3>垃圾邮件分类</h3>
+    <h3>垃圾邮件分类 (by 潮戒)</h3>
       <img alt="GitHub stars"
            src="https://img.shields.io/github/stars/zhuzhezhe/mini_sms_classify"
       href="https://github.com/zhuzhezhe/mini_sms_classify">
@@ -16,7 +16,7 @@
       </a-col>
     </a-row>
     <a-button type="primary" @click="predict">飞一会儿</a-button>
-    <div>{{result}}</div>
+    <div>分类结果：{{result}}</div>
   </div>
 </template>
 
